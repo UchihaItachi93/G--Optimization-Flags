@@ -2,14 +2,14 @@
 This is the repo where I will try to share whatever (little) knowledge I gain about the g++ optimization flags . There are four main flags or levels that we use for optimizatios ie -O0 , -O1 , -O2 , -O3 . To see what all optimizations are enabled for each of these levels , we can use the command.
 
 There are ways to check the optimization flags of each level in 
- g++ -Q -O{level} --help=optimizers
+ `g++ -Q -O{level} --help=optimizers`
  example
- g++ -Q -O{level} --help=optimizers
+ `g++ -Q -O{level} --help=optimizers`
  
  
 The different optimizations on each level are as follows :
 
-
+`
 | FLAG                                  | O0       | O1       | O2       | O3       |
 | ------------------------------------- | -------- | -------- | -------- | -------- |
 | -faggressive-loop-optimizations       | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
@@ -23,7 +23,7 @@ The different optimizations on each level are as follows :
 | -fbranch-count-reg                    | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
 | -fbranch-probabilities                | &#x274C; | &#x274C; | &#x274C; | &#x274C; |
 | -fbranch-target-load-optimize         | &#x274C; | &#x274C; | &#x274C; | &#x274C; |
-| -fbranch-target-load-optimize2        | &#x274C; | &#x274C; | &#x274C; | &#x274C; |
+| -fbranch-target-load-optimize2        | &#x274C; | &#x274C; | &#x274C; | &#x274C; |`
 | -fbtr-bb-exclusive                    | &#x274C; | &#x274C; | &#x274C; | &#x274C; |
 | -fcaller-saves                        | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
 | -fcode-hoisting                       | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
