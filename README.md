@@ -1,4 +1,4 @@
-# G-Optimization-Flags
+# G-Plus-Plus-Optimization-Flags
 This is the repo where I will try to share whatever (little) knowledge I gain about the g++ optimization flags . There are four main flags or levels that we use for optimizatios ie -O0 , -O1 , -O2 , -O3 . To see what all optimizations are enabled for each of these levels , we can use the command.
 
 There are ways to check the optimization flags of each level in 
