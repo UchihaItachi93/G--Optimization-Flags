@@ -4,7 +4,7 @@ This is the repo where I will try to share whatever (little) knowledge I gain ab
 There are ways to check the optimization flags of each level in 
  `g++ -Q -O{level} --help=optimizers`
  example
- `g++ -Q -O{level} --help=optimizers`
+ `g++ -Q -O1 --help=optimizers` 
  
  
 The different optimizations on each level are as follows :
